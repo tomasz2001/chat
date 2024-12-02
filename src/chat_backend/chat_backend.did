@@ -1,3 +1,5 @@
 service : {
     "greet": (text) -> (text) query;
+    "get": () -> (text) query;
+    "set": (text) -> ();
 }

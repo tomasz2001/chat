@@ -1,5 +1,5 @@
 service : {
     "greet": (text) -> (text) query;
-    "get": () -> (text) query;
+    "get": () -> (vec text) query;
     "set": (text) -> ();
 }
